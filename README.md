@@ -10,3 +10,9 @@ Renewable energy is critical for reducing the global carbon footprint and saving
  - Accurate prediction of non-renewable energy prevents wasteful excess production and reduces cost
 
 Solar energy is the most abundant renewable energy. However, predicting accurate solar energy production is challenging as a result of fluctuations in production due to changing environmental factors such as solar radiation, wind speed, air temperature, etc. Estimating output from a solar grid is very difficult for a human operator to predict as it depends on many factors. Machine Learning (ML) models can learn from past input and output (dataset) with higher accuracy than humans. In this project, I have used a deep neural network architecture named Neural Basis Expansion Analysis for Interpretable Time Series Forecasting (N-BEATS) algorithm to predict future energy. The test results demonstrate that the average mean error is less than 1.5% of the generated peak solar power.
+
+## How to use the code:
+1) Download the repository to local disk and then upload to Google drive
+2) Open the file, "demo_predict_solar_energy_production.ipynb" in Google Colab
+3) From pull-down menu, select Runtime --> Run all
+4) All cell will be executed one after another including training and testing the model. Results will also be plotted.
